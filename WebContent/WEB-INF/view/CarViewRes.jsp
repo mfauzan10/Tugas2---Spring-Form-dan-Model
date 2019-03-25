@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Car Information</title>
 </head>
 <body>
-<h2>Submitted Employee Information</h2>
+<h2>Submitted Car Information</h2>
     <table>
         <tr>
             <td>Name :</td>

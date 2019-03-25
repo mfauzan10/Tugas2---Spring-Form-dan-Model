@@ -3,8 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+   <meta http-equiv = "refresh" content = "0; url = /Tugas2---Spring-Form-dan-Model/Form" />
 </head>
 <body>
 Hello
