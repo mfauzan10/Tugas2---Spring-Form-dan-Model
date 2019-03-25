@@ -1,32 +1,34 @@
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<html>
-    <head>
-    </head>
-    <body>
-        <h3>Welcome Gan</h3>
-        <form:form method="POST"
-          action="/Tugas2---Spring-Form-dan-Model/AddCar" modelAttribute="car">
-             <table>
-                <tr>
-                    <td><form:label path="Name">Name</form:label></td>
-                    <td><form:input path="Name"/></td>
-                </tr>
-                <tr>
-                    <td><form:label path="Color">Colour</form:label></td>
-                    <td><form:input path="Color"/></td>
-                </tr>
-                <tr>
-                    <td><form:label path="Kinds">Kinds</form:label></td>
-                    <td><form:input path="Kinds"/></td>
-                </tr>
-                <tr>
-                    <td><form:label path="Price">Price</form:label></td>
-                    <td><form:input path="Price"/></td>
-                </tr>
-                <tr>
-                    <td><input type="submit" value="Submit"/></td>
-                </tr>
-            </table>
-        </form:form>
-    </body>
-</html>
+
+<head>
+   <spring:url value="/resources/Form.css" var="formCss" />
+   
+   <link href="${formCss}" rel="stylesheet" />
+</head>
+
+<form:form action="AddCar" method="POST" modelAttribute="car">
+  <h1>Car Information</h1>
+  <div class="container">
+    <br>
+      <form:label path="Name"><b>Name</b></form:label>
+      <form:input placeholder="Enter car's name" path="Name"/>
+	</br>
+	<br>
+      <form:label path="Color"><b>Color</b></form:label>
+      <form:input placeholder="Enter car's color" path="Color"/>  
+    </br>
+	<br>
+      <form:label path="Kinds"><b>Kinds</b></form:label>
+      <form:input placeholder="Enter car's kinds" path="Kinds"/>  
+	</br>
+	<br>
+      <form:label path="Price"><b>Price</b></form:label>
+      <form:input placeholder="Enter car's price" path="Price"/>   
+    </br>
+    <br>
+     <button type="submit">Submit</button>
+    </br>
+  </div>
+
+  </form:form> 
