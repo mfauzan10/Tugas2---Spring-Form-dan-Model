@@ -18,5 +18,5 @@
 ![Form-Submitted](https://user-images.githubusercontent.com/33054425/54922094-027db100-4f3a-11e9-8a50-941b834e902e.jpg)
 
 
-                                                                                   **Nama : Muhammad Fauzan**
-                                                                                   **NRP : 05111640000075**
+                                                                                   Nama : Muhammad Fauzan
+                                                                                   NRP : 05111640000075
